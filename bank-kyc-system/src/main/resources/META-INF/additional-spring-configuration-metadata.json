@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "otp.expiry.millis",
+    "type": "java.lang.String",
+    "description": "A description for 'otp.expiry.millis'"
+  },
+  {
+    "name": "session.timeout.minutes",
+    "type": "java.lang.String",
+    "description": "A description for 'session.timeout.minutes'"
+  }
+]}

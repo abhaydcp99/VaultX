@@ -1,0 +1,506 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\CDAC_PROJECTS\\BankKycSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\services\\implementations\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:services\\implementations\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\services\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:services\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\dtos\\confirmloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:dtos\\confirmloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\services\\implementations\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:services\\implementations\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\services\\interfaces\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:services\\interfaces\\iotpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\entities\\otpentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:entities\\otpentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\dtos\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:dtos\\emaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\bankkycsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:bankkycsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\entities\\kycapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:entities\\kycapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\entities\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:entities\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\enums\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:enums\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\enums\\kycstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:enums\\kycstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\enums\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:enums\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|f:\\cdac_projects\\bankkycsystem\\enums\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43DBB2C6-A0CD-4D37-B05E-EC14D91E53B5}|BankKycSystem.csproj|solutionrelative:enums\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-08T09:14:07.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwDMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T00:40:50.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AuthService.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:41:07.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:10:24.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\DTOs\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginRequestDTO.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\DTOs\\LoginRequestDTO.cs",
+              "RelativeToolTip": "DTOs\\LoginRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:29:33.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\DTOs\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginResponseDTO.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\DTOs\\LoginResponseDTO.cs",
+              "RelativeToolTip": "DTOs\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:32:01.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Implementations\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\JwtService.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Implementations\\JwtService.cs",
+              "RelativeToolTip": "Services\\Implementations\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:42:41.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:49:15.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:45:35.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Interfaces\\IJwtService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IJwtService.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Interfaces\\IJwtService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:36:32.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConfirmLoginRequestDTO.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\DTOs\\ConfirmLoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ConfirmLoginRequestDTO.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\DTOs\\ConfirmLoginRequestDTO.cs",
+              "RelativeToolTip": "DTOs\\ConfirmLoginRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:30:08.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:33:40.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OtpService.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Implementations\\OtpService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\OtpService.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Implementations\\OtpService.cs",
+              "RelativeToolTip": "Services\\Implementations\\OtpService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwBsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:37:56.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOtpService.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Interfaces\\IOtpService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IOtpService.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Interfaces\\IOtpService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IOtpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:34:55.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OtpEntity.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\OtpEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\OtpEntity.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\OtpEntity.cs",
+              "RelativeToolTip": "Entities\\OtpEntity.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:11:29.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-07T22:55:21.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\EmailService.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Services\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "Services\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:45:57.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmailDTO.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\DTOs\\EmailDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\EmailDTO.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\DTOs\\EmailDTO.cs",
+              "RelativeToolTip": "DTOs\\EmailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:31:16.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContextFactory.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T23:00:37.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAADwv0AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:08:23.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BankKycSystem.csproj",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\BankKycSystem.csproj",
+              "RelativeDocumentMoniker": "BankKycSystem.csproj",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\BankKycSystem.csproj",
+              "RelativeToolTip": "BankKycSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-07T22:06:34.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "KycApplication.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\KycApplication.cs",
+              "RelativeDocumentMoniker": "Entities\\KycApplication.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\KycApplication.cs",
+              "RelativeToolTip": "Entities\\KycApplication.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:11:42.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "Entities\\Transaction.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\Transaction.cs",
+              "RelativeToolTip": "Entities\\Transaction.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:11:17.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Entities\\BankAccount.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\BankAccount.cs",
+              "RelativeToolTip": "Entities\\BankAccount.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:11:52.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\AuditLog.cs",
+              "RelativeDocumentMoniker": "Entities\\AuditLog.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Entities\\AuditLog.cs",
+              "RelativeToolTip": "Entities\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:10:13.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TransactionType.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Enums\\TransactionType.cs",
+              "RelativeDocumentMoniker": "Enums\\TransactionType.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Enums\\TransactionType.cs",
+              "RelativeToolTip": "Enums\\TransactionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:33:23.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Role.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "Enums\\Role.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Enums\\Role.cs",
+              "RelativeToolTip": "Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:33:20.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "KycStatus.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Enums\\KycStatus.cs",
+              "RelativeDocumentMoniker": "Enums\\KycStatus.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Enums\\KycStatus.cs",
+              "RelativeToolTip": "Enums\\KycStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:33:17.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AccountType.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Enums\\AccountType.cs",
+              "RelativeDocumentMoniker": "Enums\\AccountType.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Enums\\AccountType.cs",
+              "RelativeToolTip": "Enums\\AccountType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:33:14.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AccountStatus.cs",
+              "DocumentMoniker": "F:\\CDAC_PROJECTS\\BankKycSystem\\Enums\\AccountStatus.cs",
+              "RelativeDocumentMoniker": "Enums\\AccountStatus.cs",
+              "ToolTip": "F:\\CDAC_PROJECTS\\BankKycSystem\\Enums\\AccountStatus.cs",
+              "RelativeToolTip": "Enums\\AccountStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T22:33:09.525Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

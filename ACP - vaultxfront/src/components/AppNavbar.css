@@ -1,0 +1,223 @@
+/* === BASE STYLES === */
+.nav-link-custom {
+  font-size: 1.08rem;
+  color: var(--nav-text-color) !important;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  font-weight: 500;
+  gap: 0.4rem;
+}
+.nav-link-custom:hover {
+  color: #ffd700 !important;
+  transform: scale(1.07);
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+}
+
+/* Remove caret from dropdown */
+.custom-dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+/* Dropdown animation */
+.dropdown-menu {
+  font-size: 1rem;
+  animation: dropdownFade 0.3s ease;
+  border-radius: 0.6rem;
+  border: none;
+  padding: 0.5rem 0;
+  min-width: 180px;
+}
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.dropdown-item:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 115, 255, 0.05),
+    rgba(138, 43, 226, 0.1)
+  );
+  transform: translateX(3px);
+  transition: all 0.3s ease;
+}
+
+/* === NAVBAR BUTTON === */
+.nav-btn {
+  position: relative;
+  overflow: hidden;
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: linear-gradient(to right, #0073ff, #22c55e);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.nav-btn:hover {
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
+  transform: scale(1.08);
+}
+.nav-btn:active {
+  transform: scale(0.96);
+}
+
+/* Ripple effect */
+.ripple::after {
+  content: "";
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  transform: scale(0);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+}
+.ripple:active::after {
+  transform: scale(2);
+  opacity: 0;
+  transition: transform 0.5s, opacity 1s;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  margin-left: 0.5rem;
+  transition: all 0.3s ease;
+}
+.theme-toggle:hover {
+  transform: rotate(15deg) scale(1.2);
+  color: #ffd700;
+}
+
+/* Navbar glassmorphism */
+.navbar.glassmorphism {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 0 0 1rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.8rem 1.5rem;
+}
+
+/* Theme colors */
+body.light {
+  --nav-text-color: #212529;
+}
+body.dark {
+  --nav-text-color: #f8f9fa;
+}
+body.light .dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.92);
+  color: #333;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+body.dark .dropdown-menu {
+  background-color: rgba(30, 30, 30, 0.95);
+  color: #ddd;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Pulse animation */
+.pulse-btn {
+  animation: pulse 2.5s infinite;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 128, 255, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(0, 128, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 128, 255, 0);
+  }
+}
+
+/* Logo Circle */
+.logo-circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: linear-gradient(to right, #0073ff, #22c55e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+.logo-circle:hover {
+  transform: scale(1.1);
+}
+
+/* VaultX text shimmer */
+.vaultx-text {
+  font-size: 1.6rem;
+  font-weight: 800;
+  background: linear-gradient(270deg, #0073ff, #22c55e, #0073ff);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+}
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Bounce in for mobile dropdown */
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.animate-bounce-in {
+  animation: bounceIn 0.4s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-link-custom {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .dropdown-menu {
+    font-size: 0.95rem;
+  }
+  .nav-btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
