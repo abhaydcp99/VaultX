@@ -67,9 +67,14 @@ This project demonstrates a **real-world banking workflow** with modern UI/UX an
 ### 🔹 Employee Login (Admin/Manager/Clerk)  
 ![Employee Login](./ACP%20-%20vaultxfront/src/assets/Emp%20login.png)  
 
-### 🔹 Manager Dashboard (KYC Approvals)  
+### 🔹 Clerk Dashboard (Video KYC Approvals) 
+![Clerk Dashboard](./ACP%20-%20vaultxfront/src/assets/Clerk.png)  
+
+### 🔹 Manager Dashboard   
 ![Manager Dashboard](./ACP%20-%20vaultxfront/src/assets/manager%20dash.png)  
 
+### 🔹 Admin Dashboard 
+![Admin Dashboard](./ACP%20-%20vaultxfront/src/assets/admin%20dash.png)
 ---
 
 ## ⚙️ Installation & Setup  
