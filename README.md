@@ -1,124 +1,132 @@
-VaultX — Full-Stack Secure Banking System
+# 💳 VaultX - Digital Banking System  
 
-VaultX is a secure, full-stack banking platform built with modern technologies. It supports OTP login, digital KYC (including WebRTC video verification, PAN/Aadhaar uploads), multi-role workflows (Clerk & Manager), automated account creation, email alerts, and core banking ops like balance inquiry, deposits, withdrawals, fund transfers, and PDF statement generation.
-GitHub
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)  
+![License](https://img.shields.io/badge/license-MIT-blue.svg)  
+![React](https://img.shields.io/badge/Frontend-React.js-61DAFB?logo=react&logoColor=white)  
+![Tailwind](https://img.shields.io/badge/UI-TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)  
+![.NET](https://img.shields.io/badge/Backend-ASP.NET%20Core-512BD4?logo=dotnet&logoColor=white)  
+![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white)  
+![Contributions](https://img.shields.io/badge/contributions-welcome-orange)  
 
-Features ::
+VaultX is a secure **full-stack digital banking platform** providing seamless onboarding, role-based access (Customer, Clerk, Manager, Admin), and advanced banking features like **KYC verification, fund transfers, investments, statements, and account management**.  
 
-Secure Authentication: OTP-based user login ensures one-time, secure access.
+This project demonstrates a **real-world banking workflow** with modern UI/UX and enterprise-grade security.  
 
-Digital KYC: Supports WebRTC-based video verification and PAN/Aadhaar document uploads.
+---
 
-Multi-role Workflow: Clerk → Manager approval flow for enhanced compliance.
+## 🚀 Features  
 
-Core Banking Functionality ::
+### 🔹 Customer Portal  
+- Digital account opening with **multi-step KYC** (PAN/Aadhaar upload, Video KYC).  
+- Role-based dashboard with balance, transactions, and account status.  
+- Secure login via **Email/Mobile OTP**.  
+- Banking services: **Fund Transfer, Add Money, Apply Cards, Recharge, Investments**.  
+- PDF statement download & transaction history.  
 
-View balances
+### 🔹 Employee Portal (Clerk / Manager / Admin)  
+- Role-based authentication & access.  
+- **Clerk**: Reviews customer KYC documents.  
+- **Manager**: Approves/rejects clerk-verified accounts.  
+- **Admin**: Manages employees & customers.  
+- Full audit trail of activities.  
 
-Deposit & withdraw funds
+### 🔹 System Highlights  
+- Modern **React.js frontend** with Tailwind UI.  
+- **ASP.NET Core Web API backend** with EF Core & JWT authentication.  
+- MySQL database for customer & transaction management.  
+- Responsive, mobile-friendly design.  
+- Security-first approach (hashed passwords, OTP verification, role-based access).  
 
-Transfer between accounts
+---
 
-Auto-generate PDF statements
+## 🛠️ Tech Stack  
 
-Automated Account Creation: Seamlessly establishes new accounts upon approval.
+**Frontend:** React.js, Tailwind CSS, ShadCN UI  
+**Backend:** ASP.NET Core Web API, Entity Framework Core  
+**Database:** MySQL  
+**Authentication:** JWT, OTP-based login  
+**Version Control:** GitHub  
 
-Email Alerts: Automatic notifications for account activity and status updates.
+---
 
-Tech Stack ::
+## 📸 Screenshots  
 
-Frontend: JavaScript — ~84.6%
-GitHub
+### 🔹 Homepage  
+![Homepage](./ACP%20-%20vaultxfront/src/assets/homepage%20dark.png)  
 
-Backend / APIs: C# — ~8.1%
-GitHub
+### 🔹 Customer Login  
+![Customer Login](./ACP%20-%20vaultxfront/src/assets/login%20page.png)  
 
-Other languages: Java (~6.4%), with minimal use of others
-GitHub
+### 🔹 Register / Open New Account  
+![Register](./ACP%20-%20vaultxfront/src/assets/Register.png)  
 
-Getting Started ::
+### 🔹 Customer Dashboard  
+![Customer Dashboard](./ACP%20-%20vaultxfront/src/assets/Customer%20dash.png)  
 
-Clone the repository
+### 🔹 Employee Login (Admin/Manager/Clerk)  
+![Employee Login](./ACP%20-%20vaultxfront/src/assets/Emp%20login.png)  
 
+### 🔹 Manager Dashboard (KYC Approvals)  
+![Manager Dashboard](./ACP%20-%20vaultxfront/src/assets/manager%20dash.png)  
+
+---
+
+## ⚙️ Installation & Setup  
+
+### 🔹 Clone the repository  
+```bash
 git clone https://github.com/abhaydcp99/VaultX.git
 cd VaultX
 
+🔹 Backend Setup (ASP.NET Core API)
 
-Frontend Setup ::
+Navigate to backend folder.
 
-cd vaultx-frontend-folder
-npm install
-npm start
+Update appsettings.json with your MySQL credentials.
+
+Run database migrations:
+
+dotnet ef database update
 
 
-Backend Setup :: C#/.NET :
+Start the API:
 
-cd backend-folder
-dotnet restore
 dotnet run
 
+🔹 Frontend Setup (React.js)
 
-Configuration ::
+Navigate to frontend folder.
 
-Set up your environment variables (OTP service, email SMTP, database, storage for KYC uploads, etc.).
+Install dependencies:
 
-Modify according to your local or production environment.
-
-Workflow :
-
-Register via OTP.
-
-Go through KYC (video + document upload).
-
-Clerk reviews and approves → Manager approves.
-
-Account gets auto-created.
-
-Use banking operations: balance checks, transfers, etc.
-
-Receive email notifications and downloadable PDF statements.
-
-Usage Demo ::
-
-Uploading Soon........
-
-Why VaultX?
-
-VaultX offers a robust, end-to-end banking solution — from secure onboarding to transaction handling and regulatory compliance (e.g. KYC). It’s ideal for:
-
-FinTech startups testing digital banking workflows
-
-Learning platforms or instructors teaching full-stack web banking apps
-
-Developers exploring OTP and video-based KYC processes
-
-Contributing ::
-
-Contributions are welcome! Feel free to:
-
-Report bugs or file feature requests via Issues
-
-Submit enhancements via Pull Requests
-
-Ask questions or start discussions via Discussions
-
-Roadmap & Vision ::
-
-Add multi-language support
-
-Expand KYC to include OCR or AI-based validation
-
-Add audit logs and advanced reporting
+npm install
 
 
+Start the frontend:
 
-Summary Table ::
+npm start
 
-Component	                 Description
+🔐 Test Credentials
+Role	   User ID	   Password
+Clerk	   CLK001	     clerk123
+Manager	 MNG001	   manager123
+Admin	   ADM001	     admin123
 
-Authentication	         OTP-based secure login
-KYC              	       WebRTC video + PAN/Aadhaar uploads
-Workflow	               Clerk/Manager role-based approvals
-Banking Features	       Balance, deposit, withdrawal, fund transfers
-Notifications	           Email alerts for key events
-Statements	             On-demand PDF generation
+📌 Future Enhancements
+
+AI-powered fraud detection.
+
+UPI / QR-based payments.
+
+Loan and credit score module.
+
+Push notifications & email alerts.
+
+🤝 Contribution
+
+Contributions are welcome! Please fork the repo and raise a pull request with detailed description of changes.
+
+👨‍💻 Author
+
+Abhay Chavan
+GitHub/abhaydcp99
