@@ -53,7 +53,7 @@ This project demonstrates a **real-world banking workflow** with modern UI/UX an
 
 ### 🔹 Homepage  
 ![Homepage](./ACP%20-%20vaultxfront/src/assets/homepage%20dark.png)  
-![Homepage](./ACP%20-%20vaultxfront/src/assets/homepage%20.png)  
+![Homepage2](./ACP%20-%20vaultxfront/src/assets/homepage%20.png)  
 
 ### 🔹 Customer Login  
 ![Customer Login](./ACP%20-%20vaultxfront/src/assets/login%20page.png)  
