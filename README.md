@@ -1,9 +1,9 @@
 # 💳 VaultX - Digital Banking System  
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)  
-![License](https://img.shields.io/badge/license-MIT-blue.svg)  
 ![React](https://img.shields.io/badge/Frontend-React.js-61DAFB?logo=react&logoColor=white)  
 ![Tailwind](https://img.shields.io/badge/UI-TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)  
+![Backend](https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
 ![.NET](https://img.shields.io/badge/Backend-ASP.NET%20Core-512BD4?logo=dotnet&logoColor=white)  
 ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white)  
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange)  
@@ -42,7 +42,9 @@ This project demonstrates a **real-world banking workflow** with modern UI/UX an
 ## 🛠️ Tech Stack  
 
 **Frontend:** React.js, Tailwind CSS, ShadCN UI  
-**Backend:** ASP.NET Core Web API, Entity Framework Core  
+**Backend (Dual)**:  
+  - **Spring Boot (Java)** → REST APIs, Business Logic, JPA/Hibernate for DB operations  
+  - ASP.NET Core Web API, Entity Framework Core  
 **Database:** MySQL  
 **Authentication:** JWT, OTP-based login  
 **Version Control:** GitHub  
@@ -83,6 +85,28 @@ This project demonstrates a **real-world banking workflow** with modern UI/UX an
 ```bash
 git clone https://github.com/abhaydcp99/VaultX.git
 cd VaultX
+
+🔹 Spring Boot (Java)
+
+Go to the backend folder:
+
+cd backend-spring
+
+
+Configure application.properties with:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/vaultxdb
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+spring.jpa.hibernate.ddl-auto=update
+jwt.secret=your-secret-key
+smtp.username=your-email
+smtp.password=your-password
+
+
+Run the app:
+
+mvn spring-boot:run
 
 🔹 Backend Setup (ASP.NET Core API)
 
